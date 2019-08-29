@@ -1,0 +1,52 @@
+.new-design {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  padding-top: 35px;
+  padding-bottom: 92px;
+  background-color: #170D08;
+}
+
+.new-design__title {
+  order: 1;
+  margin-top: 40px;
+  font-family: "Lazurski";
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.new-design__title-bigger {
+  display: block;
+  text-align: right;
+  color: #E08B66;
+}
+
+.new-design__description {
+  margin: 0;
+  font-family: "Intro Light";
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.new-design__link-detail {
+  margin-top: 30px;
+}
+
+.new-design__image-wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .new-design {
+    padding: 20px;
+    padding-top: 72px;
+    padding-bottom: 78px;
+  }
+
+  
+}
