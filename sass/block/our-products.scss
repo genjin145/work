@@ -3,6 +3,7 @@
   padding: 12px;
   padding-top: 102px;
   padding-bottom: 50px;
+  background: linear-gradient(#0C0704, #190E09);
 
   &::after {
     content: "";
@@ -56,7 +57,7 @@
   height: 257px;
   list-style-type: none;
 }
-  
+
 .product-card__button-transition {
   margin-top: 40px;
 }
@@ -66,6 +67,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 20px;
     padding-top: 150px;
     padding-bottom: 50px;
   }
@@ -88,6 +90,7 @@
   .our-products__list {
     order: 4;
     margin-top: 50px;
+    height: 597px;
   }
 }
 
@@ -95,6 +98,10 @@
   .our-products {
     padding-left: 270px;
     padding-top: 228px;
+  }
+
+  .our-products__list {
+    height: 675px;
   }
 }
 
@@ -105,8 +112,8 @@
     padding-bottom: 465px;
     padding-left: 310px;
 
-    background: url(../../img/our_products_diamond_bc.png) no-repeat;
-    background-position: bottom 60px left 310px;
+    background: url(../../img/our_products_diamond_bc.png) no-repeat bottom 60px left 310px,
+                linear-gradient(#0C0704, #190E09);
   }
 
   .our-products__description {
@@ -116,7 +123,7 @@
   .our-products__list {
     position: absolute;
     top: 320px;
-    margin-left: 595px;
-    height: 675px !important;
+    margin-left: 500px;
+    height: 675px;
   }
 }

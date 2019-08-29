@@ -72,7 +72,7 @@ body {
   letter-spacing: -0.191667px;
   text-decoration: none;
   border: 1px solid rgba(224, 139, 102, 0.5);
-
+  z-index: 100;
 
   &:hover > .button-transition__image {
     right: 20px;
@@ -130,10 +130,15 @@ body {
   box-sizing: border-box;
   background-color: rgba(175, 175, 175, 0.09);
   transition: border 300ms;
+  border: 1px solid transparent;
 
 
   &:hover {
-    border: 1px solid #E08B66;
+    border-color: #E08B66;
+  }
+
+  @media screen and (min-width:768px) {
+    margin-right: 30px;
   }
 }
 
@@ -182,21 +187,23 @@ body {
     width: 309px;
     height: 285px;
   }
+
+  @media screen and (min-width: 1440px) {
+    width: 350px;
+    height: 322px;
+  }
 }
 
 .product-card--view-2 {
   width: 122px;
-  height: 257px;
+  height: 100%;
 
   @media screen and (min-width: 768px) {
     width: 309px;
-    height: 100%;
   }
-}
 
-.our-products__list {
-  @media screen and (min-width: 768px) {
-    height: 597px !important;
+  @media screen and (min-width: 1440px) {
+    width: 350px;
   }
 }
 
